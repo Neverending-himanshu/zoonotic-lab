@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Camera } from 'lucide-react';
+import { getAssetUrl } from '../utils/assetHelper';
 
 interface PlaceholderFrameProps {
   src?: string;
@@ -39,7 +40,7 @@ export const PlaceholderFrame: React.FC<PlaceholderFrameProps> = ({
     >
       {src && !imageError && (
         <img
-          src={src}
+          src={getAssetUrl(src)}
           alt={alt}
           loading="lazy"
           onLoad={() => setLoaded(true)}

@@ -4,6 +4,7 @@ import { PlaceholderFrame } from '../components/PlaceholderFrame';
 import { OneHealthDiagram, MetaviromicsPipelineDiagram } from '../components/ScientificDiagrams';
 import { piProfile } from '../data/piData';
 import { recentAchievements } from '../data/newsData';
+import { getAssetUrl } from '../utils/assetHelper';
 
 interface HomePageProps {
   onNavigate: (route: string) => void;
@@ -17,7 +18,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         {/* Full Panel Background Image (Influenza virus with Nataraja artwork) */}
         <div className="absolute inset-0">
           <img
-            src="/images/home/nataraja-influenza-hero.jpg?v=2"
+            src={getAssetUrl('/images/home/nataraja-influenza-hero.jpg?v=2')}
             alt="Avian Influenza Virus and Cosmic Dance of Creation and Destruction"
             className="w-full h-full object-cover object-[78%_center] opacity-100 contrast-105 brightness-105"
           />
@@ -104,7 +105,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           >
             {/* Background Image: 4th image (scientist with 96-well diagnostic plate) */}
             <img
-              src="/assets/aistudio/image_e019b1d5.png"
+              src={getAssetUrl('/assets/aistudio/image_e019b1d5.png')}
               alt="Outbreak Investigation & Diagnostic Services in Diagnostic Suite"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -140,7 +141,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           >
             {/* Background Image: 2nd image (field researchers swabbing wild bird) */}
             <img
-              src="/assets/aistudio/image_3ad51c54.png"
+              src={getAssetUrl('/assets/aistudio/image_3ad51c54.png')}
               alt="Disease Surveillance and Epidemiology in Wetland Flyways"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -176,7 +177,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           >
             {/* Background Image: 3rd image (DNA double helix with high-throughput bioinformatic matrix) */}
             <img
-              src="/assets/aistudio/image_d152f1f8.png"
+              src={getAssetUrl('/assets/aistudio/image_d152f1f8.png')}
               alt="Infection Genomics and MetaViromics High-Throughput Sequencing"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -212,7 +213,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           >
             {/* Background Image: 5th image (scientist drawing vaccine from vial) */}
             <img
-              src="/assets/aistudio/image_02d44242.png"
+              src={getAssetUrl('/assets/aistudio/image_02d44242.png')}
               alt="Next Generation Diagnostics and Vaccine Development"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

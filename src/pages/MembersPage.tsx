@@ -4,6 +4,7 @@ import { PlaceholderFrame } from '../components/PlaceholderFrame';
 import { researchTeam, technicalStaff, alumniScholars } from '../data/membersData';
 import { TeamMember } from '../types';
 import { Users, GraduationCap, Wrench, Mail, BookOpen, ChevronDown, ChevronUp, X } from 'lucide-react';
+import { getAssetUrl } from '../utils/assetHelper';
 
 interface MembersPageProps {
   initialSubTab?: 'current' | 'alumni';
@@ -303,7 +304,7 @@ export const MembersPage: React.FC<MembersPageProps> = ({
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
                 <div className="w-28 h-28 shrink-0 rounded-md overflow-hidden border border-slate-200 shadow-2xs">
                   <img
-                    src={selectedMember.photo}
+                    src={getAssetUrl(selectedMember.photo)}
                     alt={selectedMember.name}
                     className="w-full h-full object-cover"
                   />

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 import { GalleryPhoto } from '../types';
+import { getAssetUrl } from '../utils/assetHelper';
 
 interface LightboxModalProps {
   item: GalleryPhoto | null;
@@ -83,7 +84,7 @@ export const LightboxModal: React.FC<LightboxModalProps> = ({
         {/* Image Display Area */}
         <div className="relative bg-slate-950 aspect-[4/3] max-h-[60vh] flex items-center justify-center overflow-hidden">
           <img
-            src={item.image}
+            src={getAssetUrl(item.image)}
             alt={item.title}
             className="w-full h-full object-contain"
             onError={(e) => {
