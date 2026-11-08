@@ -1,0 +1,437 @@
+import { Project } from '../types';
+
+export const projectsList: Project[] = [
+  {
+    sn: 1,
+    title: "Establishing a One Health Sentinel Surveillance System in High Human–Animal Interaction Settings among Selected Zoos in India. (Collaboration of 18 institutes)",
+    duration: "2026–2029",
+    startDate: "2026-01-01",
+    endDate: "2029-12-31",
+    position: "PI",
+    fundingAgency: "National One Health Mission & ICMR",
+    collabInst: 18,
+    fundsInLakh: "265.51",
+    statusRecorded: "Ongoing",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 2,
+    title: "A One Health Approach to National Pandemic Preparedness: Development of a Novel Multiplex Assay for Serological Investigations of Zoonotic Viruses in India. (Collaboration with IISER, Bhopal & NCCS, Pune)",
+    duration: "2026–2029",
+    startDate: "2026-01-01",
+    endDate: "2029-12-31",
+    position: "PI",
+    fundingAgency: "National One Health Mission & ICMR",
+    collabInst: 5,
+    fundsInLakh: "146.15",
+    statusRecorded: "Ongoing",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 3,
+    title: "Preclinical development of neutralizing novel human monoclonal antibodies against Rabies for Post-exposure prophylaxis. (Collaboration with NCCS, Pune & IISER, Bhopal)",
+    duration: "2026–2029",
+    startDate: "2026-01-01",
+    endDate: "2029-12-31",
+    position: "Co-PI",
+    fundingAgency: "National One Health Mission & ICMR",
+    collabInst: 4,
+    fundsInLakh: "65.00",
+    statusRecorded: "Ongoing",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 4,
+    title: "NOHM-Building a surveillance model for detecting zoonotic spillover in increased bird-human interaction settings using the One Health Approach: A study at selected bird sanctuaries and wetlands.",
+    duration: "2025–2027",
+    startDate: "2025-01-01",
+    endDate: "2027-12-31",
+    position: "PI",
+    fundingAgency: "National One Health Mission & ICMR",
+    collabInst: 10,
+    fundsInLakh: "275.41",
+    statusRecorded: "Ongoing",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 5,
+    title: "NOHM-National network of BSL3/4 Laboratories",
+    duration: "2024 (started)",
+    startDate: "2024-01-01",
+    endDate: "2028-12-31",
+    position: "Co-PI",
+    fundingAgency: "National One Health Mission & ICMR",
+    collabInst: 24,
+    fundsInLakh: "49.60 per year",
+    statusRecorded: "Ongoing",
+    domain: "Outbreak Investigation"
+  },
+  {
+    sn: 6,
+    title: "NOHM-Training cum Workshop on Biosafety for handling and diagnosis of high-risk animal pathogens in ABSL3/BSL3 Laboratories",
+    duration: "2024–2025",
+    startDate: "2024-01-01",
+    endDate: "2025-12-31",
+    position: "PC",
+    fundingAgency: "National One Health Mission & ICMR",
+    collabInst: 24,
+    fundsInLakh: "78.94",
+    statusRecorded: "Completed",
+    domain: "Outbreak Investigation"
+  },
+  {
+    sn: 7,
+    title: "ICAR-AINP-One Health: Subproject: Surveillance of Nipah, MERS, Ebola viruses in bat populations.",
+    duration: "2024–2026",
+    startDate: "2024-01-01",
+    endDate: "2026-12-31",
+    position: "PI",
+    fundingAgency: "ICAR-All India Network Project-One Health",
+    collabInst: "15 (IVRI)",
+    fundsInLakh: "65.00",
+    statusRecorded: "Ongoing",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 8,
+    title: "NP-GET-Subproject: Development of gene edited chicken with enhanced resilience to avian influenza (H5N1)",
+    duration: "2024–2026",
+    startDate: "2024-01-01",
+    endDate: "2026-12-31",
+    position: "Co-PI",
+    fundingAgency: "ICAR-All India Network Project-Gene Editing",
+    collabInst: "2 (CARI)",
+    fundsInLakh: "70.00",
+    statusRecorded: "Ongoing",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 9,
+    title: "Investigation of HPAIV (H5N1) Pathogenesis in chicken by metabolomics approach",
+    duration: "Apr 2024–Mar 2026",
+    startDate: "2024-04-01",
+    endDate: "2026-03-31",
+    position: "Co-PI",
+    fundingAgency: "Intramural Institute Project",
+    collabInst: 1,
+    fundsInLakh: "~20.00",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 10,
+    title: "Surveillance of rodent-borne pathogens in synanthropic rats associated with Musahari community of North India.",
+    duration: "Apr 2024–Mar 2026",
+    startDate: "2024-04-01",
+    endDate: "2026-03-31",
+    position: "Co-PI",
+    fundingAgency: "Intramural Institute Project",
+    collabInst: 1,
+    fundsInLakh: "~20.00",
+    statusRecorded: "Completed",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 11,
+    title: "Development of vaccines for prioritized exotic & emerging animal diseases. (ICAR-NIHSAD & CGIAR-ILRI Collaboration)",
+    duration: "2023–2027",
+    startDate: "2023-01-01",
+    endDate: "2027-12-31",
+    position: "PI",
+    fundingAgency: "ICAR-International Livestock Res. Institute",
+    collabInst: 2,
+    fundsInLakh: "~100.00",
+    statusRecorded: "Ongoing",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 12,
+    title: "Studies on host pathogen interactions & development of vaccine for zoonotic coronaviruses.",
+    duration: "Jun 2021–May 2024",
+    startDate: "2021-06-01",
+    endDate: "2024-05-31",
+    position: "Co-PI",
+    fundingAgency: "National Agricultural Science Fund, ICAR",
+    collabInst: 3,
+    fundsInLakh: "262.10",
+    statusRecorded: "Completed",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 13,
+    title: "Epidemiological studies & development of antiviral therapeutics against coronaviruses",
+    duration: "Jun 2021–May 2024",
+    startDate: "2021-06-01",
+    endDate: "2024-05-31",
+    position: "PI",
+    fundingAgency: "National Agricultural Science Fund, ICAR",
+    collabInst: 3,
+    fundsInLakh: "85.32",
+    statusRecorded: "Completed",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 14,
+    title: "Development and validation of LFA POCT Kits for SARS-CoV-2 antigen detection (BIRAC)-In Collaboration with DeNovo Bio Labs",
+    duration: "2020–2021",
+    startDate: "2020-01-01",
+    endDate: "2021-12-31",
+    position: "Co-PI",
+    fundingAgency: "DBT-BIRAC",
+    collabInst: 2,
+    fundsInLakh: "18.90",
+    statusRecorded: "Completed",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 15,
+    title: "DBT-NER-Advanced Animal Disease Diagnosis and Management Consortium (ADMaC)",
+    duration: "Jun 2014–Oct 2019",
+    startDate: "2014-06-01",
+    endDate: "2019-10-31",
+    position: "PC & PI",
+    fundingAgency: "Dept of Biotechnology, GOI",
+    collabInst: 15,
+    fundsInLakh: "211.49",
+    statusRecorded: "Completed",
+    domain: "Outbreak Investigation"
+  },
+  {
+    sn: 16,
+    title: "Identification of the molecular basis of differential host responses to rapidly evolving Avian Influenza viruses in different avian species.",
+    duration: "Feb 2014–Jan 2018",
+    startDate: "2014-02-01",
+    endDate: "2018-01-31",
+    position: "Co-PI",
+    fundingAgency: "BBSRC, UK and DBT, India",
+    collabInst: 2,
+    fundsInLakh: "111.63",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 17,
+    title: "Investigation of Antarctic Animal Metavirome: An initiative for Pathogen Discovery with special reference to globally emerging avian influenza and other high risks viruses.",
+    duration: "Apr 2017–Mar 2020",
+    startDate: "2017-04-01",
+    endDate: "2020-03-31",
+    position: "PI",
+    fundingAgency: "Ministry of Earth Sciences, Govt of India",
+    collabInst: 2,
+    fundsInLakh: "82.00",
+    statusRecorded: "Completed",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 18,
+    title: "Viral Metagenomic Profiling of Native and Migratory Aquatic Birds of North-Eastern States to Unravel Influenza Virus Ecology Harboured in them.",
+    duration: "Sep 2014–Aug 2017",
+    startDate: "2014-09-01",
+    endDate: "2017-08-31",
+    position: "PI",
+    fundingAgency: "Dept of Biotechnology, Govt of India",
+    collabInst: 2,
+    fundsInLakh: "84.20",
+    statusRecorded: "Completed",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 19,
+    title: "Surveillance of Exotic and Emerging Animal Diseases in Indian and Imported Livestock & Poultry and Their Products. (Service Project) (Diagnostic Services for High-risk Zoonotic Diseases: CCHF, Nipah, MERS, COVID-19, KFD, RVF, NSD, JE, WN, PRV, Monkeypox etc.)",
+    duration: "2014 onwards (continuous)",
+    startDate: "2014-01-01",
+    endDate: "continuous",
+    position: "Co-PI",
+    fundingAgency: "ICAR-NIHSAD, Bhopal",
+    collabInst: 1,
+    fundsInLakh: "--",
+    statusRecorded: "Ongoing",
+    domain: "Outbreak Investigation"
+  },
+  {
+    sn: 20,
+    title: "Investigation of Schmallenberg & related viruses in Ruminants and Culicoides spp.",
+    duration: "Apr 2015–Mar 2018",
+    startDate: "2015-04-01",
+    endDate: "2018-03-31",
+    position: "Co-PI",
+    fundingAgency: "ICAR-NIHSAD",
+    collabInst: 1,
+    fundsInLakh: "10.00",
+    statusRecorded: "Completed",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 21,
+    title: "Consortium Research Platform on Vaccines and Diagnostics: “Development of DNA strip test for sub-typing of avian influenza viruses”.",
+    duration: "Aug 2015–Jul 2018",
+    startDate: "2015-08-01",
+    endDate: "2018-07-31",
+    position: "Co-PI",
+    fundingAgency: "CRP, ICAR",
+    collabInst: 1,
+    fundsInLakh: "33.60",
+    statusRecorded: "Completed",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 22,
+    title: "Development of whole genome sequencing protocols for viruses on Nanopore sequencing platform",
+    duration: "Apr 2017–Mar 2020",
+    startDate: "2017-04-01",
+    endDate: "2020-03-31",
+    position: "Co-PI",
+    fundingAgency: "ICAR-NIHSAD, Bhopal",
+    collabInst: 1,
+    fundsInLakh: "18.00",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 23,
+    title: "ASEAN-India Fund project on Training cum Workshop on Conventional and Molecular Techniques for diagnosis of transboundary animal diseases.",
+    duration: "2013–2014",
+    startDate: "2013-01-01",
+    endDate: "2014-12-31",
+    position: "PC",
+    fundingAgency: "ASEAN-India Collaboration Fund",
+    collabInst: "7 countries",
+    fundsInLakh: "~50.00 (USD 77,506)",
+    statusRecorded: "Completed",
+    domain: "Outbreak Investigation"
+  },
+  {
+    sn: 24,
+    title: "Quest for a Universal Diagnostic PCR Array for multiple exotic and emerging viral diseases.",
+    duration: "Jun 2012–Jul 2014",
+    startDate: "2012-06-01",
+    endDate: "2014-07-31",
+    position: "PI",
+    fundingAgency: "ICAR-IVRI, Izatnagar",
+    collabInst: 1,
+    fundsInLakh: "20.00",
+    statusRecorded: "Completed",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 25,
+    title: "Development of Real-Time PCR for diagnosis of Crimean Congo Hemorrhagic Fever.",
+    duration: "Apr 2011–Mar 2012",
+    startDate: "2011-04-01",
+    endDate: "2012-03-31",
+    position: "PI",
+    fundingAgency: "ICAR-IVRI, Izatnagar",
+    collabInst: 1,
+    fundsInLakh: "10.20",
+    statusRecorded: "Completed",
+    domain: "Next Generation Diagnostics"
+  },
+  {
+    sn: 26,
+    title: "Evaluation of Lentiviral Vector based siRNA delivery system for antiviral RNA interference in poultry.",
+    duration: "Jul 2008–Jun 2011",
+    startDate: "2008-07-01",
+    endDate: "2011-06-30",
+    position: "PI",
+    fundingAgency: "ICAR-IVRI, Izatnagar",
+    collabInst: 1,
+    fundsInLakh: "17.52",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 27,
+    title: "Identification of miRNAs expressed in bubaline mammary tissue.",
+    duration: "Jul 2008–Jun 2011",
+    startDate: "2008-07-01",
+    endDate: "2011-06-30",
+    position: "Co-PI",
+    fundingAgency: "ICAR-IVRI, Izatnagar",
+    collabInst: 1,
+    fundsInLakh: "18.90",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 28,
+    title: "Determination of phylogeographical dynamics and biodiversity of Indian buffalo breeds using mitochondrial DNA analysis.",
+    duration: "Mar 2006–Mar 2008",
+    startDate: "2006-03-01",
+    endDate: "2008-03-31",
+    position: "PI",
+    fundingAgency: "ICAR-CIRB, Hisar",
+    collabInst: 1,
+    fundsInLakh: "12.00",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 29,
+    title: "Semen Quality Testing Laboratory, Network Project on Buffaloes. Service Project: Detection of pathogens transmitting through semen",
+    duration: "Apr 2001–Aug 2002",
+    startDate: "2001-04-01",
+    endDate: "2002-08-31",
+    position: "PI & Incharge",
+    fundingAgency: "ICAR-Network on Buffaloes",
+    collabInst: 1,
+    fundsInLakh: "25.00",
+    statusRecorded: "Completed",
+    domain: "Outbreak Investigation"
+  },
+  {
+    sn: 30,
+    title: "Monitoring and surveillance of infectious diseases associated with mortality in buffalo calves.",
+    duration: "Mar 2000–Aug 2002",
+    startDate: "2000-03-01",
+    endDate: "2002-08-31",
+    position: "Co-PI",
+    fundingAgency: "ICAR-CIRB, Hisar",
+    collabInst: 1,
+    fundsInLakh: "15.50",
+    statusRecorded: "Completed",
+    domain: "Disease Surveillance"
+  },
+  {
+    sn: 31,
+    title: "Identification of molecular markers applicable for progeny testing in buffaloes. (World Bank funded National Agricultural Technology Project under Competitive Grant Program).",
+    duration: "Jun 2001–Aug 2002",
+    startDate: "2001-06-01",
+    endDate: "2002-08-31",
+    position: "Co-PI",
+    fundingAgency: "World Bank funded ICAR-National Agricultural Technology Project",
+    collabInst: 1,
+    fundsInLakh: "30.00",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  },
+  {
+    sn: 32,
+    title: "Identification of molecular markers and marker assisted selection for improvement of production in buffaloes.",
+    duration: "Mar 2000–May 2001",
+    startDate: "2000-03-01",
+    endDate: "2001-05-31",
+    position: "Co-PI",
+    fundingAgency: "ICAR-CIRB, Hisar",
+    collabInst: 1,
+    fundsInLakh: "10.00",
+    statusRecorded: "Completed",
+    domain: "Infection Genomics"
+  }
+];
+
+/**
+ * Automatically determines if a project is ongoing based on its end date
+ * compared with a reference date (defaulting to current date / benchmark date Oct 2026).
+ */
+export function isProjectOngoing(project: Project, currentDate: Date = new Date()): boolean {
+  if (project.endDate === 'continuous') {
+    return true;
+  }
+  // If year only or specific end date
+  const end = new Date(project.endDate);
+  if (isNaN(end.getTime())) {
+    return project.statusRecorded === 'Ongoing';
+  }
+  // If end date is in the future relative to currentDate
+  return end.getTime() >= currentDate.getTime();
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Zoonotic Diseases Group | ICAR-NIHSAD",
+  "description": "Official research portal of the Zoonotic Diseases Group led by Dr. Ashwin Ashok Raut at ICAR-NIHSAD Bhopal. High-containment virology, One Health surveillance, infection genomics, and diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
